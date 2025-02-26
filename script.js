@@ -77,11 +77,13 @@ function select(escolhaJogador) {
                 setTimeout(() => {
                     imgBoneca.style.display = "block";
                     imgBoneca.style.opacity = "1";
+                    alert("MORREU")
                 }, 500);
             }
 
             aparecerBnc(); // Chama a função quando o jogador 2 vencer
             console.log(aparecerBnc);
+            
         }
 
         botao.style.display = "block";
