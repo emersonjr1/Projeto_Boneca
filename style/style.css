@@ -4,7 +4,7 @@
 }
 
 html{
-    background-image: url(07085058181024.webp);
+    background-image: url(../imagens/07085058181024.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,8 +46,6 @@ body #txtH1bv{
     max-width: 300px
 
 }
-
-
  
 
 #btn-recomecar {

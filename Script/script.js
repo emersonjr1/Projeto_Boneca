@@ -9,8 +9,8 @@ var areaResultado = document.getElementById("area-resultado");
 var imgBoneca = document.getElementById("imgBnc");
 
 //ARRAY - Estrutura de dados sequencial Imagens que usamos no projeto
-var imagens_jogador = ["pedra_100.png", "papel_100.png", "tesoura_100.png"];
-var imagens_pc = ["pedra_100.png", "papel_100.png", "tesoura_100.png"];
+var imagens_jogador = ["../imagens/pedra_100.png", "../imagens/papel_100.png", "../imagens/tesoura_100.png"];
+var imagens_pc = ["../imagens/pedra_100.png", "../imagens/papel_100.png", "../imagens/tesoura_100.png"];
 
 //INDICE para saber onde estamos 
 var index = 0;
