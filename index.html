@@ -8,42 +8,40 @@
     <link rel="shortcut icon" href="./image/round6_png.png" type="image/x-icon">
 </head>
 
-<body>
-    <div id="header">
+    <body>
+        <div id="header">
+            <div>
+                <h1 id="txtH1bv">Bem vindo ao <br><span>Round-7!</span></h1>
+            </div>
+
+            <div id="divImagem">
+                <img id="imagem3R" src="./image/round6_png.png" alt="round6_png">
+            </div>
+        </div>
+
         <div>
-            <h1 id="txtH1bv">Bem vindo ao <br><span>Round-7!</span></h1>
+                <h1>Hoje vamos jogar <br><br> PEDRA, PAPEL E TESOURA</h1>
+                <br>
+                <h1 id="txtEscolha">Escolha agora:</h1>
         </div>
 
-        <div id="divImagem">
-            <img id="imagem3R" src="./image/round6_png.png" alt="round6_png">
+            <div id="imagensJogo">
+                <img id="pedra" src="./image/pedra_100.png" alt="" onclick="select(0)">
+                <img id="papel" src="./image/papel_100.png" alt="" onclick="select(1)">
+                <img src="./image/tesoura_100.png" alt="" onclick="select(2)" id="tesoura">
+            </div>
+
+        <div id="area-resultado">
+                <img id="jogador" src="./image/pedra_100.png" alt="">
+                <img id="pc" src="./image/papel_100.png" alt="">
+                <img src="./image/blob_xb9t.jpg" alt="" id="imgBnc">
+                <br>
+                <button id="btn-recomecar" onclick="location.reload(true)">
+                    Recomeçar
+                </button>
         </div>
-    </div>
-
-    <div>
-        <h1>Hoje vamos jogar <br><br> PEDRA, PAPEL E TESOURA</h1>
-        <br><h1 id="txtEscolha">Escolha agora:</h1>
-    </div>
-
-    <div id="imagensJogo">
-        <img id="pedra" src="./image/pedra_100.png" alt="" onclick="select(0)">
-        <img id="papel" src="./image/papel_100.png" alt="" onclick="select(1)">
-        <img src="./image/tesoura_100.png" alt="" onclick="select(2)" id="tesoura">
-    </div>
-
-    <div id="area-resultado">
-        <img id="jogador" src="./image/pedra_100.png" alt="">
-        <img id="pc" src="./image/papel_100.png" alt="">
-        <img src="./image/blob_xb9t.jpg" alt="" id="imgBnc">
-        <br>
-        <button id="btn-recomecar" onclick="location.reload(true)">
-            Recomeçar
-        </button>
-    </div>
-
-    <script src="./script.js"></script>
-
-    <footer style="background-color: black; text-align: center; padding: 10px;">
-        <p>Criado por EmersonJr-Dev !</strong></p>
-    </footer>
-</body>
+        <script src="./script.js"></script>
+        <footer style="background-color: black; text-align: center; padding: 10px;"><p>Criado por EmersonJr-Dev</strong></p>
+        </footer>
+    </body>
 </html>

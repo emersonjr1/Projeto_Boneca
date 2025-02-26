@@ -92,7 +92,6 @@ footer{
     #imagensJogo{
         display: flex;
         flex-direction: column;
-        justify-content: ;
     }
     #imagensJogo img{
         width: 400px;
